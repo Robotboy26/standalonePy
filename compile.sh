@@ -8,4 +8,3 @@ pyinstaller $filename -F
 mv dist/$filenameNoExt ./
 rm -r build/ dist/
 rm $filenameNoExt.spec
-ls
